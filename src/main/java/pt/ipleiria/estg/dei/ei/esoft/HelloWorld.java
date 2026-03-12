@@ -6,11 +6,16 @@ import java.awt.*;
 public class HelloWorld extends  JFrame {
     private JPanel painelPrincipal;
     private JLabel helloWorld;
+    private JLabel lblMensagem2;
 
     public HelloWorld() {
         setMinimumSize(new Dimension(300, 200));
         setContentPane(painelPrincipal);
         pack();
+    }
+
+    private void init() {
+        lblMensagem2.setText("O Rómulo Marques esteve aqu");
     }
 
     public static void main(String[] args) {
