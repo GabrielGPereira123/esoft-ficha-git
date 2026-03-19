@@ -15,7 +15,7 @@ public class HelloWorld extends  JFrame {
     }
 
     private void init() {
-        lblMensagem2.setText("O Rómulo José Vieira Marques esteve aqui");
+        lblMensagem2.setText("O Rómulo Marques esteve aqui");
     }
 
     public static void main(String[] args) {
